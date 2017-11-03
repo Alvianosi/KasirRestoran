@@ -37,7 +37,7 @@ public class SettingActivity extends AppCompatActivity {
         ed7= (EditText) findViewById(R.id.hrg7);
 
         b1= (Button) findViewById(R.id.simpanButton);
-        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_APPEND);
+        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
         DisplayText();
 

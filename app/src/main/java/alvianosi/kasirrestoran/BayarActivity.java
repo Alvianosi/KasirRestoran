@@ -25,7 +25,7 @@ public class BayarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bayar);
-        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_APPEND);
+        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
         ed1= (EditText) findViewById(R.id.jml1);
         ed2= (EditText) findViewById(R.id.jml2);
